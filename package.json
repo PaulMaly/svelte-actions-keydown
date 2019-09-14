@@ -1,0 +1,35 @@
+{
+    "name": "svelte-actions-keydown",
+    "version": "1.0.0",
+    "description": "Keydown events action plugin for Svelte 3",
+    "main": "index.js",
+    "module": "index.mjs",
+    "scripts": {
+        "build": "rollup -c",
+        "prepublish": "npm run lint && npm run build",
+        "lint": "eslint src"
+    },
+    "files": [
+        "index.js",
+        "index.mjs"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PaulMaly/svelte-actions-keydown.git"
+    },
+    "keywords": [
+        "svelte",
+        "actions",
+        "events"
+    ],
+    "author": "PaulMaly",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/PaulMaly/svelte-actions-keydown/issues"
+    },
+    "homepage": "https://github.com/PaulMaly/svelte-actions-keydown#readme",
+    "devDependencies": {
+        "eslint": "latest",
+        "rollup": "latest"
+    }
+}
